@@ -2,8 +2,6 @@
 #Desc:          This script will encrypt, decrypt and print list of possible messages from input.
 #Auth:          Pawel Ruder
 #Created:       08/10/2017
-#References:    https://www.tutorialspoint.com/python/string_translate.htm
-#               https://teampython.wordpress.com/2012/02/26/how-to-do-a-very-simple-menu/
 
 import string
 import time
