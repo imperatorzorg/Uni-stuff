@@ -134,7 +134,7 @@ def main():
     sys.argv.append(r'C:/temp/cw/output.txt')                           # arg 3
     
     badfiles = 'C:/Users/Admin/Desktop/final/badfiles.txt'
-    md5lookup = 'C:/Users/Admin/Desktop/final/106_17-media_found_hash_plain.txt'
+    md5lookup = 'C:/Users/Admin/Desktop/final/106_17-media_found_hash_plain.txt' # link to download is at the top of the file
     
     if len(sys.argv) != 4:
         print ('[-] Insufficient arguments\n'+'[-] Example: [py scraper.py] [source URL] [dest for downloaded files] [dest for log file/filename]')
