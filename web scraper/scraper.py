@@ -214,9 +214,9 @@ def main():
 
     # error handling.
     except Exception as e:
-        #if WindowsError:
-          #print('Directory or path error, please enter path in Windows format, e.g C:/temp/')
-        #else:
+        if WindowsError:
+          print('Directory or path error, please enter path in Windows format, e.g C:/temp/')
+        else:
         print(e)
 
 if __name__ == '__main__':
